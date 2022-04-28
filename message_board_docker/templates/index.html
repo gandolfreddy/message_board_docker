@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles/index.css">
+    <title>圖文留言板</title>
+</head>
+<body>
+    <h1>發表一篇圖文</h1>
+    <form id="panel">
+        <p><span>文字內容</span><input type="text" name="content" id="content" required></p>
+        <p><span>圖片檔案</span><input type="file" name="file" id="file" required></p>
+        <p><span><input type="submit" value="提交" id="submit"></span></p>
+    </form>
+    <hr>
+    <div id="contents"></div>
+    <script src="static/js/index.js"></script>
+</body>
+</html>

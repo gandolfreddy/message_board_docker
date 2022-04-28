@@ -1,0 +1,39 @@
+h1{
+    margin: 30px 10px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    margin: 0px 10px;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+}
+
+hr {
+    width: 98%;
+}
+
+.box {
+    margin: 5px 10px;
+}
+
+.content {
+    margin: 0px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img>img {
+    height: 200px;
+}
+
+.alert {
+    border: 2px solid rgb(232, 57, 57);
+    border-radius: 5px;
+}
